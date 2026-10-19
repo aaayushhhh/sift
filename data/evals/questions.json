@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rag-vs-ft",
+    "question": "When is RAG a better fit than fine-tuning for a domain-specific support assistant?",
+    "expected_keywords": ["retrieval", "update", "knowledge", "fine-tuning"],
+    "allowed_source_prefixes": ["rag", "fine_tuning"]
+  },
+  {
+    "id": "why-baseline",
+    "question": "Why should an agent system be compared with a simpler baseline?",
+    "expected_keywords": ["baseline", "latency", "cost", "quality"],
+    "allowed_source_prefixes": ["evaluation", "multi_agent"]
+  },
+  {
+    "id": "verification-tradeoff",
+    "question": "What is the tradeoff of adding a separate evidence verifier to a research agent?",
+    "expected_keywords": ["verification", "supported", "latency", "cost"],
+    "allowed_source_prefixes": ["verification", "evaluation"]
+  },
+  {
+    "id": "parallel-agents",
+    "question": "When does parallel execution make sense in a multi-agent research workflow?",
+    "expected_keywords": ["parallel", "independent", "latency", "agents"],
+    "allowed_source_prefixes": ["multi_agent", "langgraph"]
+  },
+  {
+    "id": "rag-failures",
+    "question": "What can go wrong in a RAG pipeline even when the language model is capable?",
+    "expected_keywords": ["chunking", "retrieval", "documents", "context"],
+    "allowed_source_prefixes": ["rag", "evaluation"]
+  }
+]
